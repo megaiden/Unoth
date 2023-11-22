@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6481ed9dded645d4d8fd84e2e19d3978, type: 3}
+  m_Name: Test_WallsBrush
+  m_EditorClassIdentifier: 
+  tileComposition: 1
+  transitionTileComposition: 0
+  mainTile: {fileID: 0}
+  transitionTiles:
+  - {fileID: -927199367670048503, guid: 5ad2be061d34a1042b3eaebb11858bda, type: 3}
+  - {fileID: -927199367670048503, guid: f07891f24c9bca84992dfbb437dccd1a, type: 3}
+  - {fileID: -927199367670048503, guid: a9223d6012fe6014581f658f1187de37, type: 3}
+  - {fileID: -927199367670048503, guid: de1a1416424f0ff4c810cf8dcd4f11f9, type: 3}
+  - {fileID: -927199367670048503, guid: c09ce23d62fb7e444ba7fa98977519cb, type: 3}
+  useCombinedAtlas: 1
+  mainMaterial: {fileID: 2100000, guid: fe4c5218b5b4aa54b9e3cf07489e2896, type: 2}
+  extraMaterial: {fileID: 0}
+  useDegenerateMainMeshes: 0
+  useDegenerateTransitionMeshes: 0
+  mainBlueprint: {fileID: 0}
+  transitionBlueprint: {fileID: 0}
+  mainTileAddedHeight: 0
+  applyMeshColliderToMainTile: 0
+  mainTileLayer: 0
+  transitionTilesAddedHeight: 0
+  applyMeshColliderToTransitionTiles: 1
+  transitionTilesLayer: 4
+  ignoreVoidTiles: 1

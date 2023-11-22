@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebd2bcd9bdf68c418ead3acd44fb233, type: 3}
+  m_Name: 2D_Dungeon
+  m_EditorClassIdentifier: 
+  hidePredecesors: 1
+  useProceduralAsigment: 1
+  useArtificialAsigment: 0
+  showGlobalSettings: 1
+  hasDecorations: 1
+  useGlobalDecoration: 1
+  hasInteractables: 0
+  useGlobalInteractables: 1
+  useGlobalBrush: 1
+  segments:
+  - artificialDisplacement: {x: 0, y: 0, z: 0}
+    useLoader: 0
+    loaderAngle: 0
+    deltaLoaderPos: {x: 0, y: 0, z: 0}
+    useExtra: 0
+    iterateExtra: 0
+    extra: {fileID: 0}
+    extraPos: {x: 0, y: 0, z: 0}
+    rooms: 1
+    shape: {fileID: 11400000, guid: 77f56702649c5054ea82c50c7cbf2503, type: 2}
+    useBorder: 0
+    borderSize: 4
+    brushes:
+    - {fileID: 11400000, guid: 5e1e6c6e391b9184ba59fd6080d94287, type: 2}
+    - {fileID: 11400000, guid: 0d7ad599098348447939ca1865a3b78a, type: 2}
+    - {fileID: 11400000, guid: 195f2b1224223eb4fb44de55288b08f9, type: 2}
+    useDecorations: 1
+    decorations:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 53ea4020812c49c4cbc4f19ff96cbb19, type: 2}
+    - {fileID: 0}
+    useInteractables: 0
+    interactables:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - artificialDisplacement: {x: 0, y: 0, z: 0}
+    useLoader: 1
+    loaderAngle: 0
+    deltaLoaderPos: {x: 0, y: 0, z: 0}
+    useExtra: 0
+    iterateExtra: 0
+    extra: {fileID: 0}
+    extraPos: {x: 0, y: 0, z: 0}
+    rooms: 3
+    shape: {fileID: 11400000, guid: ce005f56679ef24459d94e879e986ab3, type: 2}
+    useBorder: 0
+    borderSize: 3
+    brushes:
+    - {fileID: 11400000, guid: 5e1e6c6e391b9184ba59fd6080d94287, type: 2}
+    - {fileID: 11400000, guid: 0d7ad599098348447939ca1865a3b78a, type: 2}
+    - {fileID: 11400000, guid: 195f2b1224223eb4fb44de55288b08f9, type: 2}
+    useDecorations: 1
+    decorations:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 53ea4020812c49c4cbc4f19ff96cbb19, type: 2}
+    - {fileID: 0}
+    useInteractables: 0
+    interactables:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - artificialDisplacement: {x: 0, y: 0, z: 0}
+    useLoader: 1
+    loaderAngle: 0
+    deltaLoaderPos: {x: 0, y: 0, z: 0}
+    useExtra: 0
+    iterateExtra: 0
+    extra: {fileID: 0}
+    extraPos: {x: 0, y: 0, z: 0}
+    rooms: 1
+    shape: {fileID: 11400000, guid: 77f56702649c5054ea82c50c7cbf2503, type: 2}
+    useBorder: 0
+    borderSize: 4
+    brushes:
+    - {fileID: 11400000, guid: 5e1e6c6e391b9184ba59fd6080d94287, type: 2}
+    - {fileID: 11400000, guid: 0d7ad599098348447939ca1865a3b78a, type: 2}
+    - {fileID: 11400000, guid: 195f2b1224223eb4fb44de55288b08f9, type: 2}
+    useDecorations: 1
+    decorations:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 53ea4020812c49c4cbc4f19ff96cbb19, type: 2}
+    - {fileID: 0}
+    useInteractables: 0
+    interactables:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}

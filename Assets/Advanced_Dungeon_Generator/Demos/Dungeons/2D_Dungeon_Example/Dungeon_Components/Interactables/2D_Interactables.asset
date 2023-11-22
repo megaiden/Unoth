@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95ea70aabca215429637814e4549135, type: 3}
+  m_Name: 2D_Interactables
+  m_EditorClassIdentifier: 
+  globalProbability: 1
+  interactables:
+  - decorationObject: {fileID: 919132149155446097, guid: 30dbb7da99e760e4a9993a32531f2225,
+      type: 3}
+    parentCluster: 0
+    spawnProbability: 85
+    deltaProbability: 85
+    deltaH: 0.01
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: 439ec8ba91c66f84ea8db4be8bcbb20c,
+      type: 3}
+    parentCluster: 0
+    spawnProbability: 100
+    deltaProbability: 15
+    deltaH: 0.01
+    useRandomRotation: 1
+    rotation: 0

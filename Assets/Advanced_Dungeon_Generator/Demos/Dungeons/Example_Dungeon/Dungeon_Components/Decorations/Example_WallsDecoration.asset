@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f948bb098195d749ac979ca8ee27d7a, type: 3}
+  m_Name: Example_WallsDecoration
+  m_EditorClassIdentifier: 
+  useDecorationsInTransitions: 1
+  excludeOverlappingDecorations: 0
+  useDegenerateMainMeshes: 0
+  useDegenerateTransitionMeshes: 0
+  mainProbability: 15
+  mainDecorations:
+  - decorationObject: {fileID: -927199367670048503, guid: 88d5219c30c765145bdd1f6fde071d8d, type: 3}
+    parentCluster: 0
+    spawnProbability: 10
+    deltaProbability: 10
+    deltaH: 0
+    useRandomRotation: 1
+    rotation: 0
+  - decorationObject: {fileID: -927199367670048503, guid: b9dc7ac7f534145479954bdff505c4a2, type: 3}
+    parentCluster: 1
+    spawnProbability: 25
+    deltaProbability: 15
+    deltaH: 0
+    useRandomRotation: 1
+    rotation: 0
+  - decorationObject: {fileID: -927199367670048503, guid: ef0dcd6b53a7b3745a11ea955c548d05, type: 3}
+    parentCluster: 2
+    spawnProbability: 100
+    deltaProbability: 75
+    deltaH: 0.6
+    useRandomRotation: 1
+    rotation: 0
+  mainClusters:
+  - material: {fileID: 2100000, guid: f0567688b346b4d4ea1f298f899de456, type: 2}
+    blueprint: {fileID: 0}
+    clusterSize: 1
+  - material: {fileID: 2100000, guid: 0b97fc187af6ac2489de379428c92ce4, type: 2}
+    blueprint: {fileID: 0}
+    clusterSize: 1
+  - material: {fileID: 2100000, guid: fd721147c93e36e49910a77ee7a1f9d3, type: 2}
+    blueprint: {fileID: 0}
+    clusterSize: 1
+  transitionsProbability: 22
+  transitionsDecorations:
+  - decorationObject: {fileID: -927199367670048503, guid: 16c5ca0bbff667b42af6134757ff422d, type: 3}
+    parentCluster: 0
+    spawnProbability: 35
+    deltaProbability: 35
+    deltaH: 0
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: -927199367670048503, guid: 9f27a20f24aa659429cee8ea9138a3cd, type: 3}
+    parentCluster: 0
+    spawnProbability: 75
+    deltaProbability: 40
+    deltaH: 0
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: -927199367670048503, guid: 827f7d85950a5ed4387f783e15ade800, type: 3}
+    parentCluster: 0
+    spawnProbability: 100
+    deltaProbability: 25
+    deltaH: 0
+    useRandomRotation: 0
+    rotation: 0
+  transitionsClusters:
+  - material: {fileID: 2100000, guid: 81e8a384369b8ce45964e892434c57fb, type: 2}
+    blueprint: {fileID: 0}
+    clusterSize: 3

@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f948bb098195d749ac979ca8ee27d7a, type: 3}
+  m_Name: 2D_WallDecoration
+  m_EditorClassIdentifier: 
+  useDecorationsInTransitions: 1
+  excludeOverlappingDecorations: 1
+  useDegenerateMainMeshes: 0
+  useDegenerateTransitionMeshes: 0
+  mainProbability: 48
+  mainDecorations:
+  - decorationObject: {fileID: 919132149155446097, guid: bf83ae4c96bfee54fbfe8c5400b974ce, type: 3}
+    parentCluster: 0
+    spawnProbability: 8
+    deltaProbability: 8
+    deltaH: 0.01
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: c93b7912f963271408786bd62dbe8ac4, type: 3}
+    parentCluster: 0
+    spawnProbability: 12
+    deltaProbability: 4
+    deltaH: 0.01
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: 7785e1f55365cc646a5e1d623e2d613a, type: 3}
+    parentCluster: 0
+    spawnProbability: 18
+    deltaProbability: 6
+    deltaH: 0.01
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: c8d41f4c2be4860408adde41b979a8ba, type: 3}
+    parentCluster: 0
+    spawnProbability: 28
+    deltaProbability: 10
+    deltaH: 0.01
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: 2cee785a5bf77b5418bf8217149ea0b5, type: 3}
+    parentCluster: 0
+    spawnProbability: 60
+    deltaProbability: 32
+    deltaH: 0.01
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: bd77ca3d2a7b0194f9e1ec8340b62b76, type: 3}
+    parentCluster: 0
+    spawnProbability: 90
+    deltaProbability: 30
+    deltaH: 0.01
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: 6111d8489661fbc4299dc4b390d74b17, type: 3}
+    parentCluster: 0
+    spawnProbability: 95
+    deltaProbability: 5
+    deltaH: 0.01
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: 7d9a12e55add15347baeae3c45ed5d63, type: 3}
+    parentCluster: 0
+    spawnProbability: 100
+    deltaProbability: 5
+    deltaH: 0.01
+    useRandomRotation: 0
+    rotation: 0
+  mainClusters:
+  - material: {fileID: 2100000, guid: d85669240426ebf44a69b275846a132b, type: 2}
+    blueprint: {fileID: 0}
+    clusterSize: 8
+  transitionsProbability: 75
+  transitionsDecorations:
+  - decorationObject: {fileID: 919132149155446097, guid: db75beef77a97ef4eb9b19ed3757603d, type: 3}
+    parentCluster: 0
+    spawnProbability: 20
+    deltaProbability: 20
+    deltaH: 0.006
+    useRandomRotation: 1
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: cfec23dfcdcb74745b6d442182aa03c5, type: 3}
+    parentCluster: 0
+    spawnProbability: 50
+    deltaProbability: 30
+    deltaH: 0.006
+    useRandomRotation: 1
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: cc73b47dfc3dedb46a5b0468153b9f28, type: 3}
+    parentCluster: 0
+    spawnProbability: 75
+    deltaProbability: 25
+    deltaH: 0.006
+    useRandomRotation: 0
+    rotation: 0
+  - decorationObject: {fileID: 919132149155446097, guid: e2f93141a7524b044b7d039667d52578, type: 3}
+    parentCluster: 0
+    spawnProbability: 100
+    deltaProbability: 25
+    deltaH: 0.006
+    useRandomRotation: 0
+    rotation: 0
+  transitionsClusters:
+  - material: {fileID: 2100000, guid: d85669240426ebf44a69b275846a132b, type: 2}
+    blueprint: {fileID: 0}
+    clusterSize: 4
